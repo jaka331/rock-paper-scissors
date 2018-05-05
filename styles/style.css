@@ -1,0 +1,56 @@
+body {
+  height: auto;
+  background-color: black;
+}
+.wrapper {
+  background-color: black;
+  color: white;
+  font-family: courier;
+  text-align: center;
+}
+
+.sign {
+  display: inline-block;
+  position: relative;
+  border: 2px solid red;
+  margin: 30px;
+  background-color: black;
+}
+
+#scissors:hover,
+#paper:hover,
+#rock:hover,
+#resetBar:hover {
+  background-color: red;
+}
+
+#scissors:focus,
+#rock:focus,
+#paper:focus {
+  outline: 0;
+}
+
+.gameroundbar,
+.gameresultbar {
+  border: 2px solid red;
+  height: 50px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin: 5px;
+}
+
+#resetBar {
+  border: 2px solid red;
+  height: 50px;
+  width: 10%;
+  position: relative;
+  left: 45%;
+  margin: 5px;
+}
+
+#pChoice,
+#cChoice,
+#roundScore {
+  display: inline-block;
+}
